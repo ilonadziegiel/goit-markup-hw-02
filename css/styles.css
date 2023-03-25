@@ -25,6 +25,7 @@ body {
   height: 50px;
   left: 700px;
   top: 430px;
+  line-height: 1.9;
 }
 .button-main:hover,
 .button-main:focus {
@@ -36,7 +37,7 @@ body {
   color: var(--font-color2);
   width: 100%;
   text-align: center;
-  line-height: 60px;
+  line-height: 1.4;
   letter-spacing: 0.06em;
 }
 .description {
@@ -45,4 +46,30 @@ body {
 .secondary-header {
   text-align: center;
   letter-spacing: 0.03em;
+}
+.footer {
+  background: #2f303a;
+}
+.link-footer {
+  color: var(--font-color2);
+}
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--brand-color);
+}
+.button-portfolio {
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 93px;
+  height: 38px;
+  left: 639px;
+  top: 174px;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--brand-color);
+  color: var(--font-color2);
 }
