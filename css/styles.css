@@ -45,6 +45,30 @@ body {
 .link-nav:focus {
   color: var(--brand-color);
 }
+.contact-header {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-header:hover,
+.contact-header:focus {
+  color: var(--brand-color);
+}
+.contact-footer {
+  color: #ffffff99;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--brand-color);
+}
 .button-main {
   background-color: #f5f4fa;
   border: none;
@@ -56,6 +80,7 @@ body {
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
+  padding: 10px 41px 10px 42px;
 }
 .button-main:hover,
 .button-main:focus {
@@ -73,6 +98,7 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.06em;
+  padding: 6px 22px 6px 22px;
 }
 .button-nav:hover,
 .button-nav:focus {
